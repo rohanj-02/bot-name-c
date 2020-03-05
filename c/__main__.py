@@ -13,7 +13,7 @@ async def issue_opened_event(event, gh, *args, **kwargs):
 	Event when an issue is opened
 	"""
 	## TODO
-	url = event["issue"]["comments_url"]
+	url = event["issue"].comments_url
 	# Get the comment url from the event data
 	# After getting the url, set it to the variable url
 	# and push the changes.
