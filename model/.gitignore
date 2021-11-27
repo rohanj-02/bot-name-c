@@ -1,0 +1,6 @@
+transformer/
+ans_index_lookup.pkl
+ans_vectorization.pkl
+chatbot_weights.h5
+chatbot.h5
+ques_vectorization.pkl
